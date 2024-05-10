@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <h1>Имя пользователя: {{ user.username }}</h1>
+  <h1>Дата регистрации: {{ user.date_joined }}</h1>
+</div>
+
+{% endblock content %}
